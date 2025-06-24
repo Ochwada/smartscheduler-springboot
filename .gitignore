@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+## -------- Author: Files and Directories --------
+# Directories
+.idea/
+.mvm/
+## -------- --------------------------- --------
