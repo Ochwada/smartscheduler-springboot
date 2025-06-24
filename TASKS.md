@@ -55,9 +55,28 @@ com.example.smartscheduler
 - Create a repository interface for the Person entity. 
 - Extend the appropriate Spring Data interface to get built-in CRUD methods.
 
-#### Task 7️⃣: Create the REST Controller
+#### ✅ Task 7️⃣: Create the REST Controller
 - Create a REST controller class to handle HTTP requests. 
 - Add endpoints to:
   - Create a new person (POST)
   - Get a person by ID (GET)
 - Inject the repository using constructor injection.
+
+#### ✅ Task 8️⃣: Configure application.properties
+- Configure H2 as the database. 
+- Enable the H2 web console. 
+- Set up JPA to automatically create/update the schema. 
+- Enable SQL output to see what JPA is doing.
+
+#### ✅ Task 9️⃣: Run and Test the Application
+- Start the application. 
+- Use Postman (or curl) to:
+  - Create a person by sending a POST request with JSON. 
+  - Retrieve a person by sending a GET request with the ID. 
+- Open the H2 console in your browser to view the data table.
+
+#### ✅  Submission :
+- Share screenshots of the Postman tests 
+- Take a screenshot of the H2 console 
+- Push your project to GitHub 
+- Submit a short video walking through your code and endpoints
