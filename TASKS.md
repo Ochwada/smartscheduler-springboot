@@ -43,3 +43,21 @@ com.example.smartscheduler
 - Create the main class with the main() method. 
 - Annotate the class to mark it as a Spring Boot application. 
 - Add a method that runs once at startup and adds sample data.
+
+#### ✅ Task 5️⃣: Create the Person Entity
+- Create a class to represent a person with:
+  - An ID (auto-generated)
+  - A name (String)
+- Use JPA annotations to map it to a database table. 
+- Add a no-args constructor and getters/setters.
+
+#### ✅ Task 6️⃣: Create the PersonRepository
+- Create a repository interface for the Person entity. 
+- Extend the appropriate Spring Data interface to get built-in CRUD methods.
+
+#### Task 7️⃣: Create the REST Controller
+- Create a REST controller class to handle HTTP requests. 
+- Add endpoints to:
+  - Create a new person (POST)
+  - Get a person by ID (GET)
+- Inject the repository using constructor injection.
